@@ -1,0 +1,40 @@
+<!-- <!DOCTYPE html> -->
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Udemy Javascript Course</title>
+    <h1>What Javascript Do?</h1>
+    <p>Javascript can changes HTML content</p>
+    <p id="demo">Javscript Changes Html Content</p>
+    <button
+      onclick="document.getElementById('demo').innerHTML = 'HTML Content UPDATED'"
+    >
+      Click to Make Changes
+    </button>
+    <hr />
+    <hr />
+    <button
+      onclick="document.getElementById('mimage').src='/image/lightsON.png'"
+    >
+      Lights ON
+    </button>
+    <img id="mimage" src="/image/lightsOFF.png" alt="" />
+    <button
+      onclick="document.getElementById('mimage').src='/image/lightsOFF.png'"
+    >
+      Lights OFF
+    </button>
+    <hr />
+    
+    <hr />
+    <p id="magic">!! Magic You can see the Text !!!</p>
+    <button onclick="document.getElementById('magic').style.display ='none'">
+      Hide Text
+    </button>
+    <button onclick="document.getElementById('magic').style.display ='block'">
+      Show Text
+    </button>
+  </head>
+  <body></body>
+</html>
